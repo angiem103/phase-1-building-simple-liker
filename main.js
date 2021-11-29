@@ -4,7 +4,11 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+const hide = (elem) => elem.classList.add('hidden')
+hide(document.getElementById('modal'))
 
+const heart = document.getElementsByClassName('like-glyph')
+console.log('i am the heart',heart)
 
 
 //------------------------------------------------------------------------------
